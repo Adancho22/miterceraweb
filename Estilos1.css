@@ -1,0 +1,204 @@
+body{
+    background-color: rgb(208, 208, 208);
+   
+font-family: 'Raleway', sans-serif;
+}
+
+
+#imagen1{
+    height: 250px;
+    width: 100x;
+    margin: 3%;
+    display: flex;
+    border-radius: 50px;
+   
+   
+}
+#imagen2{
+    height: 100%;
+    width: 100%;
+}
+.Parrafo1{
+    font-weight: bold;
+}
+
+header a i{
+    color: rgb(158, 31, 31);
+    font-size: 30px;
+  
+    
+}
+  header{
+    border-bottom:solid #998585 2px;
+    margin-bottom: 5px;;
+    border-bottom-style: solid;
+  }
+header, ul{
+    list-style: none;
+    color:rgb(158, 31, 31);
+    padding-right: 10px;
+    font-style: bold;
+    text-decoration: none;
+
+   
+}
+.redes{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+  .header-container {
+    color: #3a3a3a;
+    display: flex;
+    justify-content: center;
+  }
+  
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /*border-bottom-style: solid;*/
+}
+
+header nav ul{
+    display: flex;
+    gap: 20px ;
+    font-weight: bold
+}
+h3{
+    color:rgb(158, 31, 31);
+    font-weight: bold
+}
+.redes{
+    color:rgb(158, 31, 31);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.Seccion1{
+ 
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.Acerca_de{
+    text-align: left;
+}
+#Subtitulo{
+
+    text-align: center;
+}
+.cuerpo img{
+    width: 200px;
+}
+.tarjetas {
+    display: flex;
+    justify-content: center;
+}
+.tarjeta{
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:400px;
+    border-radius:15px;
+    font-family: sans-serif;
+    margin-left: 30px;
+  }
+
+  .cuerpo{
+    padding: 10px;
+    text-align: center;
+   
+  }
+  .pie{
+    background: #904135;
+    border-radius:0 0 15px 15px;
+    padding: 10px;
+    text-align:center;
+  
+  }
+  .pie a{
+    text-decoration: none;
+    color:white;
+}
+
+#check{
+    display: none;
+}
+.checkbtn {
+   display: none; 
+
+}
+footer{
+    border-top:solid  #998585 2px;
+    margin-top: 5px;;
+    text-align: center;
+}
+footer a i {
+    color: rgb(158, 31, 31);
+    font-size: 50px;
+}
+
+
+@media (max-width: 768px){
+    /*.container{ 
+        background-color: aqua;
+    } */
+.Acerca_de{
+    text-align: center;
+}
+.Seccion1{
+    flex-direction: column;
+
+}
+.checkbtn{
+    font-size: 25px;
+    color:rgb(14, 12, 9);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: flex;
+    
+}
+#check:checked ~ ul {
+    left: 0;
+    display: block;
+  }
+
+.tarjetas{
+    flex-direction: column;
+    align-items:center;
+}
+header ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgb(215, 111, 111);
+    text-align: center;
+    top: 45px;
+    left: 100%;
+    transition: all 0.5s;
+    color: #dedede;
+  }
+
+
+
+ header nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+
+    }
