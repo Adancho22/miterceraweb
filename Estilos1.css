@@ -3,7 +3,10 @@ body{
    
 font-family: 'Raleway', sans-serif;
 }
-
+.greeting{
+    background-color: #904135;
+    font-weight: bolder;
+}
 
 #imagen1{
     height: 250px;
